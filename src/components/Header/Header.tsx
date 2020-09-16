@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 import styled from 'styled-components';
 
 const HeaderWrapper = styled.div`
+  position: fixed;
   display: flex;
   justify-content: center;
-  position: sticky;
   top: 0;
   width: 100%;
   max-width: 100%;
