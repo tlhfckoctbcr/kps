@@ -1,5 +1,5 @@
-import Circle from "../src/components/Circle";
+import Header from "../src/components/Header/Header";
 
 export default function Home() {
-  return <Circle />;
+  return <Header />;
 }
