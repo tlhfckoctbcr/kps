@@ -2,16 +2,13 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   @font-face {
-    font-family: 'GrenzeGotisch';
-    src: url('/static/fonts/GrenzeGotisch-Regular.ttf');
-    src: url('/static/fonts/GrenzeGotisch-Bold.ttf');
-    src: url('/static/fonts/GrenzeGotisch-Black.ttf');
-    src: url('/static/fonts/GrenzeGotisch-ExtraLight.ttf');
+    font-family: 'Lexend Deca', sans-serif;
+    src: url('/static/fonts/LexendDeca-Regular.ttf');
   }
   html, body {
     margin: 0;
     padding: 0;
-    font-family: 'GrenzeGotisch';
+    font-family: 'Lexend Deca', sans-serif;
   }
 `;
 

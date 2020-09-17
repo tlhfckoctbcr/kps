@@ -26,11 +26,24 @@ const HeaderNavItem = styled.div`
   align-items: center;
 `;
 
+const HeaderLogo = styled.img`
+  width: 45px;
+  height: 30px;
+  padding: 0 10px;
+`;
+
+const HeaderTitle = styled.h2`
+  color: #333;
+`;
+
 function Header() {
   return (
     <HeaderWrapper id='header'>
       <HeaderNav>
-        <HeaderNavItem>King Post Studio, LLC</HeaderNavItem>
+        <HeaderNavItem>
+          <HeaderLogo src='kps-logo.png' />
+          <HeaderTitle>King Post Studio</HeaderTitle>
+        </HeaderNavItem>
         <HeaderNavItem>Work</HeaderNavItem>
         <HeaderNavItem>Contact</HeaderNavItem>
       </HeaderNav>
